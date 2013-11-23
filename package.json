@@ -1,24 +1,18 @@
 {
   "name": "rm-r",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove all files/directories below a path recursively",
   "dependencies": {
-    "foreach": "http://github.com/jkroso/foreach/tarball/0.8.7",
-    "lift-result": "0.1.1"
+    "foreach": "jkroso/forEach#0.8.8",
+    "lift-result": "~0.1.3",
+    "result-type": "1.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jkroso/node.rmdir.git"
-  },
+  "repository": "https://github.com/jkroso/node.rmdir.git",
   "author": "Jake Rosoman",
-  "keywords": [
-    "remove",
-    "rm -r",
-    "rmdir"
-  ],
+  "keywords": ["remove", "rm -r", "rmdir"],
   "devDependencies": {
     "better-assert": "1.0.0",
-    "result": "0.4.2",
-    "mocha": "1.12.1"
+    "result": "*",
+    "mocha": "*"
   }
 }
